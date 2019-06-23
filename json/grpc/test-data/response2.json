@@ -1,0 +1,10 @@
+{
+    "page": 3,
+    "price": 100,
+    "fruits": ["apple", "mango", "grape"],
+    "user": {
+        "name": "tauki",
+        "email": "tauki@gaze.technology",
+        "address": "uttara"
+    }
+}

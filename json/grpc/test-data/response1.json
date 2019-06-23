@@ -1,0 +1,12 @@
+{
+    "page": 1,
+    "fruits": ["apple", "banana", "orange"],
+    "user": {
+        "name": "arif",
+        "email": "a@gaze.technology",
+        "address": "mirpur",
+        "test": {
+            "test1": 333
+        }
+    }
+}

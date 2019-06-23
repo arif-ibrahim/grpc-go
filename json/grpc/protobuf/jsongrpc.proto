@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+
+option java_multiple_files = true;
+option java_package = "io.grpc.examples.helloworld";
+option java_outer_classname = "HelloWorldProto";
+
+package protobuf;
+
+service jsonconv {
+    rpc playjson (JsonRequest) returns (JsonReply){}
+}
+
+message JsonRequest{
+    bytes D1=1;
+    bytes D2=2;
+}
+
+message JsonReply{
+    bytes COMB=1;
+}
+
+
